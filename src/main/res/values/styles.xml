@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="CustomNumberPicker">
+        <item name="android:solidColor">#AAAAAA</item>
+        <item name="android:showDividers">none</item>
+        <item name="showDividers">none</item>
+        <item name="android:layout_weight">1</item>
+        <item name="dividerPadding">1dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/spinner_text_size</item>
+        <item name="android:theme">@style/ThemeNumberPicker</item>
+        <item name="android:descendantFocusability">blocksDescendants</item>
+    </style>
+
+    <style name="ThemeNumberPicker">
+        <item name="android:textSize">@dimen/spinner_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:showDividers">none</item>
+        <!--<item name="android:colorControlNormal">@color/blue</item>-->
+    </style>
+
+    <style name="BottomOptionsDialogTheme" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:windowBackground">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:layout_margin">0dp</item>
+        <item name="android:padding">0dp</item>
+        <item name="android:layout_gravity">bottom</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+
+</resources>

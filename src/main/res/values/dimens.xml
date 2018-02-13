@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="normal_16">16sp</dimen>
+    <dimen name="padding_15">15dp</dimen>
+    <dimen name="padding_10">10dp</dimen>
+    <dimen name="spinner_text_size">16sp</dimen>
+</resources>
